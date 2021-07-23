@@ -73,7 +73,8 @@ editButton.on('click', function () {
 
     label.css({
         'margin': '20px',
-        'font-size': '20px'
+        'font-size': '20px',
+        'font-family': "'Montserrat', sans-serif"
     });
 
     $('body').append(box);
