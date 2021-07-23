@@ -15,10 +15,11 @@ addButton.on('click', function () {
         'height': '50px',
         'display': 'flex',
         'align-items': 'center',
-        'border': '1px solid lightgrey',
+        'border': '1px solid pink',
         'margin-left': '40px',
         'width': '80%',
-        'padding-top': '9px'
+        'padding-top': '9px',
+        'background-color': 'white'
 
     });
 
@@ -30,9 +31,10 @@ addButton.on('click', function () {
     });
 
     label.css({
-        'margin': '20px',
         'font-size': '20px',
-        'font-family': "'Montserrat', sans-serif"
+        'font-family': "'Montserrat', sans-serif",
+        'color': '#3ed1c2',
+        'padding-bottom': '8px'
     });
 
     $('body').append(box);
@@ -74,7 +76,8 @@ editButton.on('click', function () {
     label.css({
         'margin': '20px',
         'font-size': '20px',
-        'font-family': "'Montserrat', sans-serif"
+        'font-family': "'Montserrat', sans-serif",
+        'color': '#3ed1c2'
     });
 
     $('body').append(box);

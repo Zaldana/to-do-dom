@@ -2,13 +2,29 @@
     margin-left: 20px;
 }
 
+body {
+    background: #3ed1c2;
+}
+
+.heading {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cat {
+    position: absolute;
+    height: 150px;
+    z-index: -1;
+}
+
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 60px;
-    margin-bottom: 35px;
-    color: rgb(25, 99, 160);
-    text-shadow: 1px 2px 5px rgba(128, 128, 128, 0.205);
+    color: white;
+    text-shadow: 1px 2px 5px rgba(124, 113, 113, 0.52);
     text-transform: capitalize;
+    margin-top: 70px;
+    /* margin-left: 30px; */
 }
 
 input {
@@ -43,7 +59,7 @@ button {
 }
 
 .remove-completed {
-    background-color: goldenrod;
+    background-color: rgb(255, 187, 0);
 }
 
 .edit-task {
@@ -59,7 +75,7 @@ button {
 }
 
 .remove-completed:hover {
-    background-color: rgb(255, 187, 0);
+    background-color: gold;
 }
 
 .edit-task:hover {
