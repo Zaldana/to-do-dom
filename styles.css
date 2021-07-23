@@ -1,0 +1,45 @@
+* {
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(25, 99, 160);
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 13px;
+}
+.button-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+button {
+    height: 35px;
+    text-transform: capitalize;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.add {
+    background-color: green;
+}
+
+.remove-completed {
+    background-color: goldenrod;
+}
+
+.edit-task {
+    background-color: teal;
+}
+
+.remove-all {
+    background-color: crimson;
+}
